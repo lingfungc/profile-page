@@ -1,0 +1,318 @@
+body {
+  background-image: linear-gradient(to right bottom, #ede2d2, #e4d6c4, #dccab7, #d3beaa, #cbb29d);
+  padding-top: 0px;
+  padding-right: 300px;
+  padding-bottom: 0px;
+  padding-left: 300px;
+  margin: 10px;
+  line-height: 36px;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 280px 30px 280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #753422;
+}
+
+.name {
+  font-family: 'Nunito', sans-serif;
+  color: #753422;
+  font-size: 28px;
+  text-decoration: none;
+  /* letter-spacing: 2px; */
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+
+header ul li a {
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #753422;
+  border-radius: 5px;
+  transition: 0.4s ease;
+}
+
+header ul li a:hover {
+  background-color: #402218;
+  color: rgb(245, 255, 245);
+}
+
+h3 {
+  font-family: 'Pontano Sans', sans-serif;
+  letter-spacing: 2px;
+  color: #5E432F;
+  font-size: 14px;
+}
+
+h4 {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #D79771;
+  font-size: 24px;
+}
+
+.trad-chinese {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #D79771;
+  font-size: 24px;
+}
+
+p {
+  font-family: 'Literata', serif;
+  font-weight: 400;
+  color: #B05B3B;
+  font-size: 16px;
+}
+
+.coffee-shop {
+  font-family: 'Nunito', sans-serif;
+  color: #753422;
+  font-size: 16px;
+}
+
+.container {
+  width: 100%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.card-white {
+  background-color: rgb(245, 255, 245);
+  padding: 40px;
+  margin: 40px 0;
+  border-radius: 4px;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.05);
+  transition: 0.2s ease;
+}
+
+.card-white:hover {
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.15);
+}
+
+#profile-picture {
+  width: 360px;
+  border-radius: 5px;
+  transition: 0.2s ease;
+}
+
+#profile-picture:hover {
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.15);
+}
+
+.pictures {
+  width: 360px;
+  height: 360px;
+  border-radius: 5px;
+  margin: 12px 8px 12px 8px;
+  transition: 0.4s ease;
+}
+
+.pictures:hover {
+  width: 380px;
+  height: 380px;
+}
+
+.navigation {
+  font-family: 'Pontano Sans', sans-serif;
+  letter-spacing: 2px;
+  color: #D79771;
+  font-size: 14px;
+}
+
+.btn {
+  background-color: #753422;
+  padding: 8px 20px;
+  border-radius: 4px;
+  color: rgb(240, 250, 230);
+  font-family: 'Figtree', sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.4s ease;
+}
+
+.btn:hover {
+  background-color: #D79771;
+  color: #402218;
+  padding: 12px 24px;
+  font-size: 20px;
+}
+
+.list-incline {
+	list-style: none;
+}
+
+.list-incline li {
+  display: inline;
+  margin: 20px;
+}
+
+/* .navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #897853;
+  border-radius: 5px;
+}
+
+.menu {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu a {
+  display: block;
+  color: rgb(240, 250, 230);
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  transition: 0.4s ease;
+}
+
+.menu a:hover {
+  background-color: #4E3620;
+} */
+
+.fa-brands {
+  font-size: 36px;
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(245, 255, 245);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  font-family: 'Pontano Sans', sans-serif;
+  letter-spacing: 2px;
+  color: rgb(245, 255, 245);
+  font-size: 14px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  font-family: 'Pontano Sans', sans-serif;
+  letter-spacing: 2px;
+  color: rgb(245, 255, 245);
+  font-size: 10px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 8px;
+  width: 8px;
+  margin: 0 2px;
+  line-height: 18px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 70%;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 40%;
+  }
+}
