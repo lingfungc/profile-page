@@ -378,7 +378,7 @@ p {
 .slide {
   position: absolute;
   inset: 0;
-  opacity: 1;
+  opacity: 0;
 }
 
 .slide > img {
@@ -391,14 +391,14 @@ p {
 }
 
 .slide[data-active] {
-  opacity: 0;
+  opacity: 1;
 }
 
 .carousel-button {
   position: absolute;
   background: none;
   border: none;
-  font-size: 2rem;
+  font-size: 1.5rem;
   top: 50%;
   transform: translateY(-50%);
   color: black;
