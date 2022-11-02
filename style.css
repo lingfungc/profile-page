@@ -345,13 +345,15 @@ p {
 } */
 
 .carousel {
-  width: 80%;
-  height: 300px;
+  width: 90%;
+  height: 400px;
   position: relative;
   margin: 0 auto;
 }
 
-.carousel li {
+.carousel > ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -361,6 +363,23 @@ p {
   opacity: 0;
 }
 
+.slide > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
 .slide[data-active] {
   opacity: 1;
+}
+
+.carousel-button {
+  position: absolute;
+  background: none;
+  border: none;
+  font-size: 4rem;
+  top: 50%;
+  transform: translateY(-50%);
 }
