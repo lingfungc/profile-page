@@ -390,6 +390,24 @@ p {
   z-index: 1;
 }
 
+.slide-text {
+  position: absolute;
+  top: 100%;
+  left: 100%;
+  transform: translate(-100%, -100%);
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 160px;
+  padding: 4px;
+  font-size: 14px;
+  color: white;
+  opacity: 0.5;
+}
+
+.slide > p {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
 .slide[data-active] {
   opacity: 1;
 }
@@ -407,12 +425,13 @@ p {
   padding: 0 0.5rem;
   background-color: rgba(0, 0, 0, 0.1); */
   z-index: 2;
+  transition: 0.3s ease;
 }
 
-.carousel-button:hover,
-.carousel-button:focus {
+.carousel-button:hover {
   color: white;
   background-color: rgba(0, 0, 0, 0.2);
+  opacity: 0.6;
 }
 
 /* .carousel-button:focus { */
