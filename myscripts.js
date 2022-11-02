@@ -26,3 +26,12 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+
+const buttons = document.querySelector('[data-carousel-button]')
+
+buttons.forEach(button => {
+  button.addEventListener("click", () => {
+
+  })
+})
