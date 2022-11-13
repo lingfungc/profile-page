@@ -18,7 +18,6 @@ body {
   margin: 0 auto;
   line-height: 36px;
 }
-
 @keyframes AnimateBG {
   0%{background-position:0% 50%}
   50%{background-position:100% 50%}
@@ -32,18 +31,15 @@ body {
   align-items: center;
   color: #753422;
 }
-
 .navbar ul {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .navbar ul li {
   list-style: none;
   margin-left: 16px;
 }
-
 .navbar ul li a {
   text-decoration: none;
   padding: 6px 12px;
@@ -51,7 +47,6 @@ body {
   border-radius: 50px;
   transition: 0.4s ease;
 }
-
 .navbar ul li a:hover {
   background-color: #be9f86;
   color: rgb(245, 255, 245);
@@ -63,14 +58,12 @@ body {
   font-size: 28px;
   text-decoration: none;
 }
-
 h3 {
   font-family: 'Pontano Sans', sans-serif;
   letter-spacing: 2px;
   color: #5E432F;
   font-size: 14px;
 }
-
 h4 {
   font-family: 'Noto Sans', sans-serif;
   font-weight: 500;
@@ -78,7 +71,6 @@ h4 {
   color: #D79771;
   font-size: 24px;
 }
-
 .trad-chinese {
   font-family: 'Noto Sans TC', sans-serif;
   font-weight: 500;
@@ -86,7 +78,6 @@ h4 {
   color: #D79771;
   font-size: 24px;
 }
-
 p {
   font-family: 'Literata', serif;
   font-weight: 400;
@@ -114,7 +105,6 @@ p {
   box-shadow: 0px 10px 10px rgba(0,0,0,0.05);
   transition: 0.2s ease;
 }
-
 .card-white:hover {
   box-shadow: 0px 10px 20px rgba(0,0,0,0.15);
 }
@@ -124,11 +114,9 @@ p {
   border-radius: 5px;
   transition: 0.2s ease;
 }
-
 #profile-picture:hover {
   box-shadow: 0px 10px 20px rgba(0,0,0,0.15);
 }
-
 .pictures {
   width: 360px;
   height: 360px;
@@ -136,13 +124,11 @@ p {
   margin: 12px 8px 12px 8px;
   transition: 0.4s ease;
 }
-
 .pictures:hover {
   width: 380px;
   height: 380px;
   box-shadow: 0px 10px 20px rgba(0,0,0,0.15);
 }
-
 .navigation {
   font-family: 'Pontano Sans', sans-serif;
   letter-spacing: 2px;
@@ -160,93 +146,25 @@ p {
   text-decoration: none;
   transition: 0.4s ease;
 }
-
 .btn:hover {
   background-color: #D79771;
   color: #402218;
   padding: 8px 20px;
   box-shadow: 0px 5px 10px rgba(0,0,0,0.15);
 }
-
 .list-incline {
 	list-style: none;
 }
-
 .list-incline li {
   display: inline;
   margin: 20px;
 }
-
 .fa-brands {
   font-size: 36px;
 }
 
 
-/* * {box-sizing:border-box} */
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Caption text */
-.text {
-  font-family: 'Pontano Sans', sans-serif;
-  letter-spacing: 2px;
-  color: rgb(245, 255, 245);
-  font-size: 14px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  font-family: 'Pontano Sans', sans-serif;
-  letter-spacing: 2px;
-  color: rgb(245, 255, 245);
-  font-size: 10px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 8px;
-  width: 8px;
-  margin: 0 2px;
-  line-height: 18px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
+/* CAROUSEL SLIDERS */
 
 .carousel {
   width: 90%;
@@ -254,13 +172,11 @@ p {
   position: relative;
   margin: 0 auto;
 }
-
 .carousel > ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-
 .slide {
   position: absolute;
   inset: 0;
@@ -268,7 +184,6 @@ p {
   transition: 200ms opacity ease-in-out;
   transition-delay: 200ms;
 }
-
 .slide > img {
   display: block;
   width: 100%;
@@ -277,7 +192,6 @@ p {
   object-position: center;
   z-index: 1;
 }
-
 .slide-text {
   position: absolute;
   top: 100%;
@@ -290,18 +204,15 @@ p {
   color: white;
   opacity: 0.5;
 }
-
 .slide > p {
   margin-block-start: 0em;
   margin-block-end: 0em;
 }
-
 .slide[data-active] {
   opacity: 1;
   z-index: 1.5;
   transition-delay: 0ms;
 }
-
 .carousel-button {
   position: absolute;
   background: none;
@@ -317,21 +228,17 @@ p {
   z-index: 2;
   transition: 0.3s ease;
 }
-
 .carousel-button:hover {
   color: white;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 0.6;
 }
-
 /* .carousel-button:focus { */
   /* outline: 1px solid black; */
 /* } */
-
 .carousel-button.prev {
   left: 1rem;
 }
-
 .carousel-button.next {
   right: 1rem;
 }
